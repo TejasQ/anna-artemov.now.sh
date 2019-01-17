@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Hello Sunshine";
+  src: local("Hello Sunshine Regular"), local("HelloSunshine-Regular"),
+    url("/static/fonts/hello-sunshine.woff2") format("woff2"), url("/static/fonts/hello-sunshine.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Letter Gothic Std";
+  src: local("Letter Gothic Std Bold Slanted"), local("LetterGothicStd-BoldSlanted"),
+    url("/static/fonts/hinted-LetterGothicStd-BoldSlanted.woff2") format("woff2"),
+    url("/static/fonts/hinted-LetterGothicStd-BoldSlanted.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Letter Gothic Std";
+  src: local("Letter Gothic Std Slanted"), local("LetterGothicStd-Slanted"),
+    url("/static/fonts/hinted-LetterGothicStd-Slanted.woff2") format("woff2"),
+    url("/static/fonts/hinted-LetterGothicStd-Slanted.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Letter Gothic Std";
+  src: local("Letter Gothic Std Medium"), local("LetterGothicStd"),
+    url("/static/fonts/hinted-LetterGothicStd.woff2") format("woff2"),
+    url("/static/fonts/hinted-LetterGothicStd.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  color: #5a5858;
+}

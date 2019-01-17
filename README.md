@@ -1,0 +1,3 @@
+# [anna-artemov.now.sh](https://anna-artemov.now.sh)
+
+This website was built with [Next.js](https://nextjs.org/) in [serverless mode](https://github.com/zeit/next.js#serverless-deployment). Each page of this website is a [serverless lambda](https://zeit.co/docs/v2/deployments/concepts/lambdas/) and comes with all of the [benefits of serverless](https://threadreaderapp.com/thread/1085184027533791232.html). It was fun. It also has a near-perfect [lighthouse](https://developers.google.com/web/tools/lighthouse/) score.

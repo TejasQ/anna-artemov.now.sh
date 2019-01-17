@@ -1,0 +1,23 @@
+{
+  "name": "anna-artemov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^10.0.5",
+    "@emotion/styled": "^10.0.5",
+    "next": "^7.0.2-canary.49",
+    "react": "16.7.0-alpha.2",
+    "react-div-100vh": "^0.3.2",
+    "react-dom": "16.7.0-alpha.2",
+    "webfontloader": "^1.6.28"
+  }
+}
