@@ -14,7 +14,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.5",
     "@emotion/styled": "^10.0.5",
-    "next": "^7.0.2-canary.49",
+    "next": "^9.3.2",
     "react": "16.7.0-alpha.2",
     "react-div-100vh": "^0.3.2",
     "react-dom": "16.7.0-alpha.2",
